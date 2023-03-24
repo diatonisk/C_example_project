@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/build": true, // this is a default value
+		},
+		"files.associations": {
+			"stdio.h": "c"
+		}
+	}
+}
