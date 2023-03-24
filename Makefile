@@ -5,7 +5,7 @@ all: build
 
 .PHONY: test
 test: $(INSTALL_DIR)/main
-	$<
+	@echo "Output from produced binary:" && $<
 
 .PHONY: build $(INSTALL_DIR)/main
 build $(INSTALL_DIR)/main:
